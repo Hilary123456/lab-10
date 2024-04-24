@@ -1,0 +1,80 @@
+{
+  "intents": [
+    {
+      "tag": "activity",
+      "patterns": [
+        "random",
+        "next activity"
+      ],
+      "responses": [
+        "Here's a random activity for you: Listen to your favorite album.",
+        "The next activity is to take a walk in the park."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "name"
+      ],
+      "responses": [
+        "My name is Voice Assistant.",
+        "You can call me Assistant."
+      ]
+    },
+    {
+      "tag": "participants",
+      "patterns": [
+        "participants"
+      ],
+      "responses": [
+        "One person is needed for the activity."
+      ]
+    },
+    {
+      "tag": "save",
+      "patterns": [
+        "save"
+      ],
+      "responses": [
+        "File created successfully."
+      ]
+    },
+    {
+      "tag": "find",
+      "patterns": [
+        "find *"
+      ],
+      "responses": [
+        "Searching for information on {0}.",
+        "I'm looking up {0}."
+      ]
+    },
+    {
+      "tag": "meaning",
+      "patterns": [
+        "meaning"
+      ],
+      "responses": [
+        "The meaning of {0} is {meaning}."
+      ]
+    },
+    {
+      "tag": "link",
+      "patterns": [
+        "link"
+      ],
+      "responses": [
+        "Opening a browser with information on {0}."
+      ]
+    },
+    {
+      "tag": "example",
+      "patterns": [
+        "example"
+      ],
+      "responses": [
+        "Here's an example of {0}: {example}."
+      ]
+    }
+  ]
+}
